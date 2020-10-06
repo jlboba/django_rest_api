@@ -125,7 +125,7 @@ To build your app, we're going to be building a virtual environment. In order to
 1. `git push heroku master` 
 1. Once it builds successfully, run `heroku run bash` 
 1. While in heroku bash,  apply the migrations to the heroku project by running: `python manage.py migrate` 
-1. Still in heroku bash, create a superuser for the heroku project by running `python
+1. Still in heroku bash, create a superuser for the heroku project by running `python manage.py createsuperuser` and follow the prompts
     - To exit heroku bash, run `exit`
 
 ### In Browser 
