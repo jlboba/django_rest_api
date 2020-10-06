@@ -135,3 +135,24 @@ To build your app, we're going to be building a virtual environment. In order to
 1. Remember that your heroku database is separate from your local database, so there should not be any data on the first load. 
     - You can add data by logging in with the heroku superuser you created
 1. You can now use this deployed version as your backend API
+
+---
+
+## Resources 
+
+Django and Rest are both fairly opinionated frameworks meaning there are right ways to do things. If you plan on making many changes to this template, I would recommend looking at their documentation: 
+
+- [Django Documentation](https://docs.djangoproject.com/en/3.1/)
+    - Particular pages you may want to look at: 
+        - [Making Queries (Django's built in ORM)](https://docs.djangoproject.com/en/3.1/topics/db/queries/#)
+        - [Models](https://docs.djangoproject.com/en/3.1/topics/db/models/)
+        - [Migrations](https://docs.djangoproject.com/en/2.0/topics/migrations/)
+        - [URLs Config](https://docs.djangoproject.com/en/3.1/topics/http/urls/)
+        
+- [Djagno REST Framework Documentation](https://www.django-rest-framework.org/) (Click on the API Guide dropdown on the nav bar to see their documentation for specific things) 
+    - Particular pages you may want to look at: 
+        - [Serializers](https://www.django-rest-framework.org/api-guide/serializers/)
+        - [Class-based views](https://www.django-rest-framework.org/api-guide/views/)
+        - [Generic views](https://www.django-rest-framework.org/api-guide/generic-views/)
+        - [ViewSets](https://www.django-rest-framework.org/api-guide/viewsets/)
+        - [Routers](https://www.django-rest-framework.org/api-guide/routers/)
