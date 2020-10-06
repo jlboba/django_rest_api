@@ -12,7 +12,7 @@ This is a single model full CRUD API for contacts using Python and Django.
 |---|---|---|
 | id | integer | assigned by db |
 | name | string | n/a |
-| age | int | n/a |
+| age | integer | n/a |
 
 ### Contacts Routes: 
 
