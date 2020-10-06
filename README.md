@@ -72,9 +72,9 @@ To build your app, we're going to be building a virtual environment. In order to
 1. Install all the required packages by running: `pipenv install` 
 1. Activate the virtual environment by running: `pipenv shell`
     - NOTE: To exit the shell gracefully whenever you're done working, use `exit`
-1. Create the `django_contacts` psql database and user by running: `psql -U postgres -f settings.sql` 
+1. Create the `django_contacts` psql database and user by running the following while in the pipenv shell: `psql -U postgres -f settings.sql` 
     - You can find the database name and username/password inside the settings.sql file
-1. Apply the migrations by running: `python3 manage.py migrate`
+1. Apply the migrations by running the following while in the pipenv shell: `python3 manage.py migrate`
 1. Make a superuser for your app, this will allow you to work directly with your database on the browser without having to use Postman 
     - In the pipenv shell, run `python3 manage.py createsuperuser` and follow the instructions
 1. Start the Django server by running the following inside the pipenv shell: `python3 manage.py runserver` 
@@ -92,7 +92,7 @@ To build your app, we're going to be building a virtual environment. In order to
 
 ### Updating / Creating Models 
 
-1. If you make any changes to the `contacts_api/models.py` file, you will need to make and run a migration to apply the changes. Do the following commands while _inside the pipenv shell_
+1. If you make any changes to the `contacts_api/models.py` file, you will need to make and run a migration to apply the changes. You can do so by using the following commands while _inside the pipenv shell_
     1. Make the migration: `python3 manage.py makemigrations` 
     1. Apply the migration: `python3 manage.py migrate` 
     
