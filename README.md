@@ -130,7 +130,7 @@ To build your app, we're going to be building a virtual environment. In order to
 
 ### In Browser 
 
-1. After the migrations finish, you should now be able to open the heroku app in your browser to see the same Django REST interface!
+1. After the migrations finish, you should now be able to open the heroku app in your browser to see the Django REST interface!
     - Don't forget to go to `/api/contacts`
 1. Remember that your heroku database is separate from your local database, so there should not be any data on the first load. 
     - You can add data by logging in with the heroku superuser you created
