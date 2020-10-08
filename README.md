@@ -2,7 +2,7 @@
 
 ## Description 
 
-This is a single model full CRUD API for contacts using Python and Django. 
+This is a single model full CRUD API for contacts using Python, Django, and the Django REST Framework.
 
 > This is an **api only**. I would suggest consuming this API using React as a _separate server_ by using [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html).
 
