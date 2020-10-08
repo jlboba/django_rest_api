@@ -146,7 +146,7 @@ Django and Rest are both fairly opinionated frameworks meaning there are right w
     - Particular pages you may want to look at: 
         - [Making Queries (Django's built in ORM)](https://docs.djangoproject.com/en/3.1/topics/db/queries/#)
         - [Models](https://docs.djangoproject.com/en/3.1/topics/db/models/)
-        - [Migrations](https://docs.djangoproject.com/en/2.0/topics/migrations/)
+        - [Migrations](https://docs.djangoproject.com/en/3.1/topics/migrations/)
         - [URLs Config](https://docs.djangoproject.com/en/3.1/topics/http/urls/)
         
 - [Djagno REST Framework Documentation](https://www.django-rest-framework.org/) (Click on the API Guide dropdown on the nav bar to see their documentation for specific things) 
